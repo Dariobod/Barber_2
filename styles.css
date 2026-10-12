@@ -10,14 +10,15 @@
 /* Portada y recursos gráficos de la referencia Fab the Barber. */
 .hero{min-height:570px;height:calc(85svh - 88px);max-height:850px;overflow:visible;background:radial-gradient(ellipse at center,#fff 40%,#f1f1f1)}
 .hero-copy{width:100%;padding:50px 18% 50px 6%;text-align:center}
-.hero-logo{width:350px;height:350px;max-width:100%;margin:auto;object-fit:contain}
+.hero-logo{width:520px;height:520px;max-width:100%;margin:auto;object-fit:contain}
 .barber-pole{position:absolute;top:35px;bottom:-75px;right:0;width:clamp(130px,18vw,270px);z-index:3;overflow:hidden;pointer-events:none}
 .barber-pole img{height:100%;width:auto;max-width:none;object-fit:contain}
 .ticker{position:relative;min-height:185px;padding:80px 16% 60px 5%;gap:20px;background:#1e1e1b;z-index:1}
 .ticker-icon{display:block;width:45px;height:45px;object-fit:contain;flex-shrink:0;filter:brightness(0) saturate(100%) invert(22%) sepia(89%) saturate(3630%) hue-rotate(345deg) brightness(94%) contrast(91%)}
 .ticker .section-edge{position:absolute;left:0;bottom:-45px;width:100%;max-width:none;height:46px;object-fit:fill;pointer-events:none}
 #servicios{padding-top:125px;background:#e52327;--copper:#e52327}
-@media(max-width:800px){.hero{min-height:520px;height:calc(80svh - 80px)}.hero-copy{padding:45px 22% 45px 5%}.hero-logo{width:280px;height:280px}.barber-pole{top:35px;bottom:-65px;width:110px}.ticker{padding:85px 6% 45px;min-height:210px;flex-wrap:wrap;justify-content:center;gap:18px;font-size:13px}.ticker-icon{width:35px;height:35px}.ticker .section-edge{bottom:-28px;height:29px}#servicios{padding-top:95px}}
-@media(max-width:450px){.hero-copy{padding-right:95px;padding-left:15px}.hero-logo{width:255px;height:255px}.barber-pole{width:110px;top:30px;bottom:-55px}.ticker{display:grid;grid-template-columns:1fr 38px 1fr;gap:18px 12px;padding:80px 6% 40px;text-align:center;font-size:12px}.ticker-icon{width:30px;height:30px;margin:auto}.ticker span:last-of-type{grid-column:3}.ticker-icon:last-of-type{grid-column:2;grid-row:2}.ticker span:nth-of-type(3){grid-column:1;grid-row:2}.ticker .section-edge{display:block}}
+@media(max-width:800px){.hero{min-height:520px;height:calc(80svh - 80px)}.hero-copy{padding:45px 22% 45px 5%}.hero-logo{width:380px;height:380px}.barber-pole{top:35px;bottom:-65px;width:110px}.ticker{padding:85px 6% 45px;min-height:210px;flex-wrap:wrap;justify-content:center;gap:18px;font-size:13px}.ticker-icon{width:35px;height:35px}.ticker .section-edge{bottom:-28px;height:29px}#servicios{padding-top:95px}}
+@media(max-width:450px){.hero-copy{padding-right:80px;padding-left:10px}.hero-logo{width:280px;height:280px}.barber-pole{width:110px;top:30px;bottom:-55px}.ticker{display:grid;grid-template-columns:1fr 38px 1fr;gap:18px 12px;padding:80px 6% 40px;text-align:center;font-size:12px}.ticker-icon{width:30px;height:30px;margin:auto}.ticker span:last-of-type{grid-column:3}.ticker-icon:last-of-type{grid-column:2;grid-row:2}.ticker span:nth-of-type(3){grid-column:1;grid-row:2}.ticker .section-edge{display:block}}
 @media(max-width:450px){.ticker{display:flex;flex-wrap:wrap;justify-content:center;gap:15px 12px}.ticker span,.ticker-icon{grid-column:auto!important;grid-row:auto!important}.ticker-icon{margin:0}.ticker .section-edge{margin:0}}
+
 
