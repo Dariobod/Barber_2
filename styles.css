@@ -53,3 +53,6 @@ body.menu-open{overflow:hidden}
 
 /* Reserva sobre fondo negro. */
 .booking{background:var(--ink)}.booking .eyebrow,.booking h2 em{color:var(--copper)}
+
+/* Mismo negro que la superficie de la agenda integrada. */
+.booking,.booking-widget iframe{background:#191919}
