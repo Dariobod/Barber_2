@@ -38,3 +38,5 @@ header.menu-open{width:100%;background:white}
 body.menu-open{overflow:hidden}
 .hero{height:85svh}
 @media(max-width:800px){header{height:86px;padding:0}.hero{height:80svh}}
+
+.hero-booking{margin-top:28px}.hero-copy{padding-top:30px;padding-bottom:30px}@media(max-width:450px){.hero-booking{font-size:11px;padding:13px 16px;gap:12px}}
