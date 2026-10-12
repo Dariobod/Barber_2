@@ -40,3 +40,9 @@ body.menu-open{overflow:hidden}
 @media(max-width:800px){header{height:86px;padding:0}.hero{height:80svh}}
 
 .hero-booking{margin-top:28px}.hero-copy{padding-top:30px;padding-bottom:30px}@media(max-width:450px){.hero-booking{font-size:11px;padding:13px 16px;gap:12px}}
+/* Pincel y líneas con tijera de la referencia. */
+.brush-title{display:inline-block}.title-underline{display:block;width:75%;height:14px;object-fit:fill;margin:14px auto 0}.scissors-divider{display:block;width:100%;max-width:680px;height:auto;margin:24px 0 28px;object-fit:contain}#galeria .heading>div{min-width:0}#galeria .scissors-divider{margin-bottom:0}
+.video-frame{border-radius:4px;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}.video-poster,.video-frame video{transition:transform .35s ease}.carousel-track{padding-top:12px;padding-bottom:25px}
+@media(hover:hover) and (pointer:fine){.video-card:hover .video-frame{transform:translateY(-6px);box-shadow:0 12px 24px #1e1e1b25}.video-card:hover .video-poster{transform:scale(1.045)}.video-card:hover .video-frame:not(.has-started) video{transform:scale(1.045)}}
+.video-card:focus-within .video-frame{box-shadow:0 0 0 2px var(--copper)}
+@media(prefers-reduced-motion:reduce){.video-card:hover .video-frame,.video-card:hover .video-poster,.video-card:hover .video-frame video{transform:none}}
