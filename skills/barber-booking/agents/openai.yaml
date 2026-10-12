@@ -1,0 +1,4 @@
+interface:
+  display_name: "Barber: reservas"
+  short_description: "Formulario e integración de reservas de Barber"
+  default_prompt: "Usá $barber-booking para desarrollar el flujo de reservas de Barber Studio."

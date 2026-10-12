@@ -1,0 +1,2 @@
+{"name":"barber-pips-concept-b","version":"0.1.0","private":true,"scripts":{"dev":"node scripts/serve.mjs","build":"node scripts/build.mjs","check":"node scripts/check.mjs"},"engines":{"node":">=20"}}
+

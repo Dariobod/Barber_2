@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import { readFile, access } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+const html = await readFile('index.html', 'utf8');
+const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
+assert.equal(new Set(ids).size, ids.length, 'IDs duplicados');
+for (const match of html.matchAll(/href="#([^"]+)"/g)) assert(ids.includes(match[1]), `Ancla inexistente: ${match[1]}`);
+for (const match of html.matchAll(/(?:src|href|poster)="([^"#]+)"/g)) if (!/^https:\/\//.test(match[1])) await access(match[1]);
+execFileSync(process.execPath, ['--check', 'script.js']);
+assert(html.includes('id=\"booking-calendar"'));
+console.log('OK: recursos, navegación, IDs y sintaxis JS');

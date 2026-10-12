@@ -1,0 +1,4 @@
+interface:
+  display_name: "Barber: validación y publicación"
+  short_description: "Checks, build y publicación de Barber Studio"
+  default_prompt: "Usá $barber-release para validar y preparar la publicación de Barber Studio."

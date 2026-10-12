@@ -1,0 +1,4 @@
+interface:
+  display_name: "Barber: interfaz"
+  short_description: "Interfaz, diseño y contenido de Barber Studio"
+  default_prompt: "Usá $barber-frontend para continuar la interfaz de Barber Studio."
