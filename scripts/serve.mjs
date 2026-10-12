@@ -11,4 +11,5 @@ http.createServer(async (req, res) => {
     const body = await readFile(path.resolve(root, relative));
     res.writeHead(200, { 'Content-Type': types[path.extname(relative)] || 'application/octet-stream' }); res.end(body);
   } catch { res.writeHead(404); res.end('No encontrado'); }
-}).listen(4173, '127.0.0.1', () => console.log('Local: http://127.0.0.1:4173'));
+}).listen(Number(process.env.PORT || 4174), '127.0.0.1', () => console.log('Local: http://127.0.0.1:4174'));
+
