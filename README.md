@@ -22,3 +22,5 @@ Fuentes fotográficas: https://images.unsplash.com/photo-1503951914875-452162b0f
 Fuentes: DM Sans, Barlow Condensed y Yellowtail (Google Fonts).
 
 Proyecto B: https://barber-pips-2.pages.dev/. Puerto local: 4174 (configurable con PORT).
+
+Recursos de portada e iconos reutilizados de Fab the Barber por pedido del usuario: assets/ref-*.png (fuente https://www.fabthebarber.co.uk/).
