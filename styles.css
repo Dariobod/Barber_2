@@ -65,3 +65,6 @@ body.menu-open{overflow:hidden}
 
 /* Entrada de servicios al llegar a la sección. */
 @media(prefers-reduced-motion:no-preference){.services-reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;transition-delay:var(--reveal-delay,0ms)}.services-reveal.is-visible{opacity:1;transform:translateY(0)}}
+
+/* Videos más grandes dentro del carrusel. */
+.video-card{flex-basis:310px}@media(max-width:800px){.video-card{flex-basis:280px}}@media(max-width:450px){.video-card{flex-basis:min(280px,94%)}}
