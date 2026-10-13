@@ -86,3 +86,18 @@ videoCards.forEach(card => {
   video.addEventListener('play', () => frame.classList.add('has-started'));
   video.addEventListener('ended', () => frame.classList.remove('has-started'));
 });
+
+const serviceSection = document.querySelector('#servicios');
+if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+  const serviceElements = [...serviceSection.querySelectorAll('.heading, .services article, .note')];
+  serviceElements.forEach((element, index) => {
+    element.classList.add('services-reveal');
+    element.style.setProperty('--reveal-delay', `${index * 130}ms`);
+  });
+  const serviceEntrance = new IntersectionObserver(entries => {
+    if (!entries.some(entry => entry.isIntersecting)) return;
+    serviceElements.forEach(element => element.classList.add('is-visible'));
+    serviceEntrance.disconnect();
+  }, { threshold: 0.12 });
+  serviceEntrance.observe(serviceSection);
+}

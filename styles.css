@@ -62,3 +62,6 @@ body.menu-open{overflow:hidden}
 @media(max-width:450px){#servicios .services article{grid-template-columns:1fr 42px;padding:24px 12px 35px}#servicios .services small{grid-column:1;grid-row:2}#servicios .services button{grid-column:2;grid-row:1 / span 2}#servicios .services h3{font-size:27px}}
 
 .intro-copy p{font-family:'Barlow Condensed',sans-serif;font-weight:500}.intro-copy em{display:inline-block;margin-right:.22em}
+
+/* Entrada de servicios al llegar a la sección. */
+@media(prefers-reduced-motion:no-preference){.services-reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease;transition-delay:var(--reveal-delay,0ms)}.services-reveal.is-visible{opacity:1;transform:translateY(0)}}
