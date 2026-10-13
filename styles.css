@@ -68,3 +68,5 @@ body.menu-open{overflow:hidden}
 
 /* Videos más grandes dentro del carrusel. */
 .video-card{flex-basis:310px}@media(max-width:800px){.video-card{flex-basis:280px}}@media(max-width:450px){.video-card{flex-basis:min(280px,94%)}}
+
+.hero-logo{width:480px;height:480px}.hero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:28px}.hero-actions .button{margin-top:0}.hero-gallery{background:transparent;color:var(--copper)}.hero-gallery:hover{color:white}@media(max-width:800px){.hero-logo{width:350px;height:350px}}@media(max-width:450px){.hero-logo{width:260px;height:260px}.hero-actions{gap:9px}.hero-actions .button{font-size:10px;padding:11px 10px;letter-spacing:.3px;gap:5px}}
