@@ -81,3 +81,6 @@ body.menu-open{overflow:hidden}
 
 /* Portada móvil centrada y cilindro completo con sus soportes. */
 @media(max-width:800px){.barber-pole{top:35px;right:0;width:110px;height:auto;bottom:auto}.barber-pole img{width:100%;height:auto;max-width:100%}.hero-copy{padding:30px 15px}.hero-logo{width:240px;height:240px}}@media(max-width:450px){.barber-pole{top:30px;width:90px;height:auto}.hero-logo{width:180px;height:180px}.hero-copy{padding:30px 15px}}
+
+/* Composición móvil según la captura del cliente. */
+@media(max-width:450px){.hero{display:block;min-height:600px;height:80svh}.hero-copy{position:relative;height:100%;padding:100px 0 0}.hero-logo{width:145px;height:145px;margin-left:20%;margin-right:0}.barber-pole{top:30px;width:80px;right:0}.hero-actions{position:absolute;top:328px;left:0;right:0;margin:0;gap:11px;align-items:center}.hero-actions .button{width:62%;max-width:230px;min-height:51px;font-size:13px;padding:12px 14px;letter-spacing:0}}
