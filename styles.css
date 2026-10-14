@@ -78,3 +78,6 @@ body.menu-open{overflow:hidden}
 
 /* Cilindro móvil anclado arriba, con tamaño reducido. */
 @media(max-width:800px){.barber-pole{top:35px;bottom:auto;height:78%}}@media(max-width:450px){.barber-pole{top:30px;bottom:auto;height:72%}}
+
+/* Portada móvil centrada y cilindro completo con sus soportes. */
+@media(max-width:800px){.barber-pole{top:35px;right:0;width:110px;height:auto;bottom:auto}.barber-pole img{width:100%;height:auto;max-width:100%}.hero-copy{padding:30px 15px}.hero-logo{width:240px;height:240px}}@media(max-width:450px){.barber-pole{top:30px;width:90px;height:auto}.hero-logo{width:180px;height:180px}.hero-copy{padding:30px 15px}}
