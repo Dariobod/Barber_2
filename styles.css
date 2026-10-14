@@ -75,3 +75,6 @@ body.menu-open{overflow:hidden}
 .hero-logo{width:400px;height:400px}.hero-actions{flex-direction:column;align-items:center;gap:12px;margin-top:24px}.hero-actions .button{width:190px;justify-content:center}
 @media(max-width:800px){.hero-logo{width:280px;height:280px}.barber-pole{top:auto;height:78%;bottom:-50px;width:100px}}
 @media(max-width:450px){.hero-logo{width:215px;height:215px}.hero-copy{padding-right:75px;padding-left:15px}.barber-pole{height:72%;width:85px;bottom:-45px}.hero-actions .button{width:170px;font-size:11px;padding:13px 14px}.hero-actions{gap:12px;margin-top:22px}}
+
+/* Cilindro móvil anclado arriba, con tamaño reducido. */
+@media(max-width:800px){.barber-pole{top:35px;bottom:auto;height:78%}}@media(max-width:450px){.barber-pole{top:30px;bottom:auto;height:72%}}
